@@ -4,6 +4,7 @@ from typing import List
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
 
+from sys import exit
 
 # Returns the number of valid entries after deletion.
 def delete_duplicates(A: List[int]) -> int:
@@ -16,6 +17,7 @@ def delete_duplicates(A: List[int]) -> int:
         if A[write_index - 1] != A[i]:
             A[write_index] = A[i]
             write_index += 1
+    
     return write_index
 
 

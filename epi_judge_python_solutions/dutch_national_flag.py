@@ -6,6 +6,7 @@ from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 RED, WHITE, BLUE = range(3)
+from sys import exit
 
 
 def dutch_flag_partition(pivot_index: int, A: List[int]) -> None:
