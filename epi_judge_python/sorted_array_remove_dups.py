@@ -6,6 +6,7 @@ from test_framework.test_utils import enable_executor_hook
 
 from sys import exit
 
+
 # Returns the number of valid entries after deletion.
 def delete_duplicates(A: List[int]) -> int:
     # TODO - you fill in here.
